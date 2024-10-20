@@ -34,7 +34,7 @@ public class PostService {
         String conteudo = scanner.nextLine();
         System.out.println("Digite o ID do usuário:");
         int usuarioId = scanner.nextInt();
-        scanner.nextLine(); // Consumir nova linha
+        scanner.nextLine();
         
         return """
                 {
